@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23E224" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Lap" representedClassName="Lap" syncable="YES">
+        <attribute name="diffTime" optional="YES" attributeType="String"/>
+        <attribute name="lapNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recordTime" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Timer" representedClassName="Timer" syncable="YES">
+        <attribute name="milliSeconds" optional="YES" attributeType="String"/>
+        <attribute name="minutes" optional="YES" attributeType="String"/>
+        <attribute name="seconds" optional="YES" attributeType="String"/>
+    </entity>
+</model>
